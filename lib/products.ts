@@ -7,19 +7,17 @@ export type Product = {
   price: number; // starting price in Rupiah per kg
 };
 
-export const WHATSAPP_NUMBER = "085156238473";
-export const ORDER_URL = "https://tukangseafood.netlify.app/pesan";
-export const THREADS_HANDLE = "@tukangseafood";
-export const THREADS_URL = "https://www.threads.com/@tukangseafood";
-
-export function waLink(productName?: string) {
-  const msg = productName
-    ? `Halo Tukang Seafood, saya ingin memesan ${productName}. Apakah stoknya masih tersedia?`
-    : "Halo Tukang Seafood, saya ingin memesan seafood segar. Apakah stoknya masih tersedia?";
-  return `https://wa.me/6285156238473?text=${encodeURIComponent(msg)}`;
-}
-
-export const WHATSAPP_URL = waLink();
+// URL & kontak eksternal dipusatkan di lib/config.ts;
+// re-export agar import lama tetap berfungsi.
+export {
+  ORDER_URL,
+  ORDER_DISPLAY,
+  THREADS_HANDLE,
+  THREADS_URL,
+  waLink,
+  WHATSAPP_NUMBER,
+  WHATSAPP_URL,
+} from "./config";
 
 export function formatPrice(price: number) {
   return `Rp${price.toLocaleString("id-ID")}/kg`;

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Inter } from "next/font/google";
 import "./globals.css";
+import { SITE_URL } from "@/lib/config";
 import SmoothScroll from "@/components/SmoothScroll";
 import Preloader from "@/components/Preloader";
 
@@ -8,7 +9,7 @@ const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tukangseafood.netlify.app"),
+  metadataBase: new URL(SITE_URL),
   title: "Tukang Seafood | Seafood Segar Berkualitas Premium",
   description:
     "Tukang Seafood menyediakan cumi, udang, kepiting, dan berbagai ikan laut segar dengan kualitas premium. Pesan melalui WhatsApp atau website.",

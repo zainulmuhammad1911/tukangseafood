@@ -3,12 +3,13 @@
 import { motion } from "framer-motion";
 import { Mist } from "./Ocean";
 import {
+  ORDER_DISPLAY,
   ORDER_URL,
   THREADS_HANDLE,
   THREADS_URL,
   waLink,
   WHATSAPP_NUMBER,
-} from "@/lib/products";
+} from "@/lib/config";
 import { GlobeIcon, WhatsAppIcon } from "./ProductShowcase";
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -44,7 +45,7 @@ const channels = [
   },
   {
     label: "Pesan Online",
-    value: "tukangseafood.netlify.app/pesan",
+    value: ORDER_DISPLAY,
     desc: "Pesan kapan saja lewat halaman pemesanan online kami.",
     href: ORDER_URL,
     icon: GlobeIcon,

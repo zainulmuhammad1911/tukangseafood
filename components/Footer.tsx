@@ -5,12 +5,13 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Bubbles, Mist } from "./Ocean";
 import {
+  ORDER_DISPLAY,
   ORDER_URL,
   THREADS_HANDLE,
   THREADS_URL,
   waLink,
   WHATSAPP_NUMBER,
-} from "@/lib/products";
+} from "@/lib/config";
 import { GlobeIcon, WhatsAppIcon } from "./ProductShowcase";
 import { ThreadsIcon } from "./Contact";
 
@@ -150,7 +151,7 @@ export default function Footer() {
                 Pesan Online
               </span>
               <span className="block break-all text-sm font-medium text-white/75 transition-colors group-hover:text-white">
-                tukangseafood.netlify.app/pesan
+                {ORDER_DISPLAY}
               </span>
             </span>
           </a>

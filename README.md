@@ -25,9 +25,9 @@ npm run build && npm start   # production
 
 ## Kontak & pemesanan
 
-Semua data kontak ada di [`lib/products.ts`](lib/products.ts):
+Semua URL & kontak eksternal terpusat di [`lib/config.ts`](lib/config.ts):
 - WhatsApp: 085156238473 (`waLink()` otomatis mengisi pesan dengan nama produk)
-- Pesan online: https://tukangseafood.netlify.app/pesan
+- Pesan online: https://dashboard.tukangseafood.com/pesan
 - Threads: [@tukangseafood](https://www.threads.com/@tukangseafood)
 
 Harga per produk juga diatur di file yang sama (`price`, dalam Rupiah per kg; `null` = "Harga mengikuti ukuran").
