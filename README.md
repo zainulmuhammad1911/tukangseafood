@@ -27,7 +27,7 @@ npm run build && npm start   # production
 
 Semua URL & kontak eksternal terpusat di [`lib/config.ts`](lib/config.ts):
 - WhatsApp: 085156238473 (`waLink()` otomatis mengisi pesan dengan nama produk)
-- Pesan online: https://dashboard.tukangseafood.com/pesan
+- Pesan online: https://tukangseafood.com/pesan
 - Threads: [@tukangseafood](https://www.threads.com/@tukangseafood)
 
 Harga per produk juga diatur di file yang sama (`price`, dalam Rupiah per kg; `null` = "Harga mengikuti ukuran").

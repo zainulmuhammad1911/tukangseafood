@@ -5,8 +5,8 @@
 
 export const SITE_URL = "https://tukangseafood.com";
 
-export const ORDER_URL = "https://dashboard.tukangseafood.com/pesan";
-export const ORDER_DISPLAY = "dashboard.tukangseafood.com/pesan";
+export const ORDER_URL = "https://tukangseafood.com/pesan";
+export const ORDER_DISPLAY = "tukangseafood.com/pesan";
 
 export const WHATSAPP_NUMBER = "085156238473";
 
