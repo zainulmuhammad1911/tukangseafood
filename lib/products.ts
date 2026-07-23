@@ -33,6 +33,6 @@ export const products: Product[] = [
   { name: "Ikan Bawal Laut", slug: "ikan-bawal", src: "/products/ikan-bawal.png", category: "Ikan", note: "Bawal laut segar pilihan", price: 69000 },
   { name: "Ikan Gurame", slug: "ikan-gurame", src: "/products/ikan-gurame.png", category: "Ikan", note: "Gurame ukuran konsumsi terbaik", price: 64500 },
   { name: "Ikan Kuwe", slug: "ikan-kuwe", src: "/products/ikan-kuwe.png", category: "Ikan", note: "Kuwe segar, cocok bakar & kukus", price: 69000 },
-  { name: "Ikan Napoleon", slug: "ikan-napoleon", src: "/products/ikan-napoleon.png", category: "Ikan", note: "Napoleon eksklusif, stok terbatas", price: 69000 },
+  { name: "Ikan Kakaktua", slug: "ikan-napoleon", src: "/products/ikan-napoleon.png", category: "Ikan", note: "Napoleon eksklusif, stok terbatas", price: 69000 },
   { name: "Ikan Kembung", slug: "ikan-kembung", src: "/products/ikan-kembung.png", category: "Ikan", note: "Kembung segar harian", price: 59000 },
 ];
